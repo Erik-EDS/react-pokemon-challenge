@@ -1,28 +1,12 @@
-### A little about the structure:
-api: all API requests \
-components: all components \
-containers: main parts of the project, pages. \
-interfaces: typescript interfaces main part which usable in other places also \
-routes: routing \
-styles: global style
+# Getting Started with Create React App
 
-### Brief about solution
-My solution is simple. I use containers as main pages and components for write base logic there.
-More interested part I think is search, because we haven't search endpoint and I done custom solution
-If I had more time I added more information on details page and on code part I added webpack, env, eslint and maybe
-improve code to more globally.
-
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you want to install:
-
-### `yarn install`
-
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -30,12 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -45,7 +29,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
